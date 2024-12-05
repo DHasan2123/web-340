@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                      // Ensure compatibility with modern JavaScript features.
+    "module": "commonjs",                  // CommonJS module system (standard in Node.js).
+    "allowJs": true,                       // Allow JavaScript files to be included in the project.
+    "checkJs": false,                      // Disables type checking for JavaScript files (can be true if using typescript).
+    "types": ["jest"],                     // Include Jest types for testing autocompletion.
+    "baseUrl": ".",                        // Set the base directory for relative imports.
+    "strict": true                         // Enable strict mode for better type safety.
+  },
+  "include": [
+    "src/**/*",                            // Include all files in the src folder.
+    "test/**/*"                            // Include all test files in the test folder.
+  ],
+  "exclude": [
+    "node_modules"                         // Exclude the node_modules folder.
+  ]
+}
